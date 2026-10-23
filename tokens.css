@@ -1,0 +1,92 @@
+/* Hallmark · pre-emit critique: P5 H4 E4 S5 R4 V4 */
+/* Hallmark · macrostructure: Workbench · tone: luxury · anchor hue: brass
+ * theme: custom
+ * vibe: midnight salon holographic felt
+ * paper: oklch(16% 0.028 278)
+ * accent: oklch(80% 0.11 88)
+ * display: Fraunces
+ * body: IBM Plex Sans KR
+ * axes: dark / high-contrast-serif / warm
+ * audience: solo player · use: finish a hand · enrichment: none
+ */
+
+:root {
+  --color-room: oklch(16% 0.028 278);
+  --color-room-2: oklch(22% 0.032 262);
+  --color-felt: oklch(33% 0.056 178);
+  --color-felt-deep: oklch(26% 0.044 180);
+  --color-felt-light: oklch(40% 0.062 172);
+  --color-felt-ink: oklch(48% 0.045 176 / 0.38);
+  --color-rail: oklch(29% 0.04 68);
+  --color-brass: oklch(80% 0.11 88);
+  --color-brass-deep: oklch(58% 0.1 74);
+  --color-brass-dim: oklch(80% 0.08 88 / 0.42);
+  --color-ivory: oklch(96.5% 0.012 96);
+  --color-ivory-shade: oklch(91% 0.02 92);
+  --color-ink: oklch(24% 0.032 276);
+  --color-ink-soft: oklch(42% 0.03 272);
+  --color-crimson: oklch(52% 0.17 27);
+  --color-win: oklch(88% 0.12 162);
+  --color-loss: oklch(78% 0.13 28);
+  --color-push: oklch(84% 0.1 88);
+  --color-focus: oklch(90% 0.11 90);
+  --color-line: oklch(88% 0.07 90 / 0.38);
+  --color-shadow: oklch(10% 0.02 276 / 0.48);
+  --color-card-edge: oklch(80% 0.02 92 / 0.7);
+  --color-back: oklch(27% 0.07 282);
+  --color-back-deep: oklch(18% 0.05 286);
+  --color-back-line: oklch(78% 0.09 88 / 0.5);
+  --color-glare: oklch(98% 0.01 96 / 0.72);
+  --color-foil-1: oklch(70% 0.19 25);
+  --color-foil-2: oklch(80% 0.15 78);
+  --color-foil-3: oklch(84% 0.13 145);
+  --color-foil-4: oklch(78% 0.11 200);
+  --color-foil-5: oklch(68% 0.16 262);
+  --color-foil-6: oklch(74% 0.17 322);
+  --color-chip-5: oklch(94% 0.02 96);
+  --color-chip-25: oklch(52% 0.17 27);
+  --color-chip-100: oklch(80% 0.11 88);
+  --color-chip-500: oklch(24% 0.04 276);
+  --color-chip-ink: oklch(24% 0.032 276);
+  --color-chip-cream: oklch(96.5% 0.012 96);
+  --color-btn: oklch(30% 0.03 274);
+  --color-btn-hover: oklch(36% 0.034 272);
+  --color-backdrop: oklch(12% 0.02 278 / 0.72);
+  --color-dialog: oklch(96.5% 0.012 96);
+  --color-message: oklch(96.5% 0.012 96);
+
+  --font-ui: var(--font-body), "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  --font-mark: var(--font-display), "Iowan Old Style", "Palatino Linotype", serif;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.35rem;
+  --text-xl: 1.75rem;
+  --text-display: clamp(2.4rem, 8vw, 5.4rem);
+
+  --radius-card: 0.7rem;
+  --radius-chip: 999px;
+  --radius-panel: 1.25rem;
+  --radius-court: 0.45rem;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in: cubic-bezier(0.55, 0.06, 0.68, 0.19);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 140ms;
+  --dur-mid: 280ms;
+  --dur-flip: 460ms;
+  --dur-arrive: 420ms;
+
+  --card-w: 10rem;
+  --rule: 1px solid var(--color-line);
+}
